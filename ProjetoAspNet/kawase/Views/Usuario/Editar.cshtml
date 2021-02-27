@@ -1,0 +1,38 @@
+@model Usuario
+@{
+    Layout = "_Layout2";
+}
+@{
+    ViewData["Title"] = "Editar";
+}
+    <section class="sobre">Seus dados</section>
+<form method="POST" asp-action="Editar">
+
+    <input type="hidden" asp-for="Id">
+    <div class="fild1">Alterar dados</div>
+<div class="fild">
+
+    <div class="tudo">
+        <div class="t1"><label asp-for="Nome">Nome: </label></div><!--t1-->
+        <div class="t2"><input asp-for="Nome"></div><!--t2-->
+    </div><!--tudo-->
+
+    <div class="tudo">
+         <div class="t1"><label type="email" asp-for="Login">Login: </label></div><!--t1-->
+        <div class="t2"><input asp-for="Login"></div><!--t2-->
+    </div><!--tudo-->    
+
+    <div class="tudo">
+         <div class="t1"><label asp-for="Senha">Senha: </label></div><!--t1-->
+        <div class="t2"><input asp-for="Senha" type="password"></div><!--t2-->
+    </div><!--tudo-->
+
+    <div class="tudo">   
+        <div class="t1"></div><!--t1-->
+        <div class="t2"><input class="editar" type="submit" value="Editar" /></div><!--t2-->
+   </div><!--tudo-->
+   </div>
+
+</form>
+
+<p>@ViewBag.Mensagem</p>

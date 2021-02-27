@@ -1,0 +1,82 @@
+       @model Cliente
+@{
+    ViewData["Title"] = "Formulario de Contato";
+}
+       
+       <section class="sobre">Contato</section>
+       <div class="contatos">
+           <div class="c2">
+               <form action="Contato" method="POST">
+                   <div class="legenda">Fale conosco:</div>  
+       <div class="fieldset">        
+       <div class="tudo">       
+                <div class="t1">
+                    <label asp-for="Nome">Nome: </label>
+                </div><!--t1 nome-->
+                <div class="t2">
+                    <input asp-for="Nome" type="text" autocomplet="off" name="nome" maxlength="90" requered />
+                </div><!--t2 nome-->
+        </div><!--tudo nome-->
+
+        <div class="tudo">       
+                <div class="t1">
+                   <label asp-for="Email">E-mail: </label>
+                </div><!--t1 email-->
+                <div class="t2">
+                    <input asp-for="Email" type="email" autocomplet="off" maxlength="40" requered >
+                </div><!--t2 email-->
+        </div><!--tudo email-->
+
+        <div class="tudo">       
+                <div class="t1">
+                    <label asp-for="Telefone">Telefone: </label>
+                </div><!--t1 telefone-->
+                <div class="t2">
+                   <input asp-for="Telefone" type="tel" autocomplet="off" maxlength="13" requered >
+                </div><!--t2 telefone-->
+        </div><!--tudo telefone-->
+
+        <div class="tudo">       
+                <div class="t1">
+                    <label asp-for="Selecao">O que deseja?</label>
+                </div><!--t1 selecao-->
+                <div class="t2">
+                   <select asp-for="Selecao" class= "selecao" required>
+                <option value=""></option>
+                <option value="Site Institucional">Site Institucional</option>
+                <option value="E-commerce">E-commerce</option>
+                <option value="Blog">Blog</option>
+                <option value="Atualização do site">Atualização do site</option>
+                <option value="Consultoria">Consultoria</option>
+                <option value="Edição de vídeos">Edição de vídeos</option>
+                <option value="Cursos Online">Cursos Online</option>
+                <option value="Outro">Outro</option></p>
+            </select>
+                </div><!--t2 selecao-->
+        </div><!--tudo selecao-->
+
+        <div class="tudo">       
+                <div class="t1">
+                    <label asp-for="Descricao">Descrição: </label>
+                </div><!--t1 descricao-->
+                <div class="t2">
+                <textarea asp-for="Descricao" rows="4" maxlength="200" required></textarea>
+                </div><!--t2 descricao-->
+        </div><!--tudo descricao-->
+
+            <div class="tudo">
+                <div class="t1"></div>
+                 <div class="t2"><input class="enviar" type="submit" value="Enviar" name="enviar"></div>
+            </div>
+              </div>    
+        </form><!--form-->
+      </div>
+      <div class="c2">
+        <div class="legenda">Encontre-nos:</div> 
+        <section class="endereco">            
+            <div class="frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7457.055322739408!2d-41.1172116271551!3d-20.85077169438015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb942b6378dc595%3A0xed0dd2dc969c8006!2sCentro%2C%20Cachoeiro%20de%20Itapemirim%20-%20ES!5e0!3m2!1spt-BR!2sbr!4v1613684036508!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>          
+        </section>
+        </div>
+       </div>

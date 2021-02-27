@@ -1,0 +1,38 @@
+@{
+    Layout = "_Layout2";
+}
+@model IEnumerable<Cliente>
+    @{
+        ViewData["Title"] = "Mensagens";
+    }
+            <section class="sobre">Mensagens recebidas</section>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Selecao</th>
+                <th>Descricao</th>
+                <th>Opções</th>                
+            </tr>
+        </thead>        
+            @foreach ( Cliente c in Model)
+            {    
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.Nome</td>
+                    <td>@c.Email</td>
+                    <td>@c.Telefone</td>
+                    <td>@c.Selecao</td>
+                    <td>@c.Descricao</td>
+                    <td>
+                        <a class="sp" href="mailto:?to=&subject=Formulário de contato.&body=Olá! Sou Kelly da Kawase Soluções Digitais. Obrigada por entrar em contato conosco! (Resposta)">Enviar email</a>
+                        <a class="sp" href="/Cliente/Remover?Id=@c.Id">Excluir</a>
+                    </td>
+                </tr>
+            }
+        <tbody>
+        </tbody>
+    </table>

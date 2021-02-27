@@ -1,0 +1,87 @@
+﻿@using Microsoft.AspNetCore.Http
+<!DOCTYPE html>
+<html>
+    <!----------------------------------head--------------------------------->
+    <head>        
+        <meta charset="utf-8" />
+        <script src="https://kit.fontawesome.com/1894838314.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="~/css/site.css" rel="stylesheet">
+        <title>Kawase - Soluções Digitais</title>
+        <!--SEO-->
+        <meta name="description" content="Kelly Kawase - Soluções para você!" />
+    </head>
+<body>
+        <header>            
+            <div class="container">               
+            <section class="logo">
+                <a href="../Home/Index"><img src="https://kawase.com.br/wp-content/uploads/2020/10/LogoNome.png"/></a>
+            </section>  
+
+<!-----------------------------------Menu--------------------------------------------------->          
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a asp-controller="Usuario" asp-action="Listar">Seus dados</a></li>
+                        <li><a asp-controller="Cliente" asp-action="Listar">Mensagens recebidas</a></li>
+                    <li> @if(Context.Session.GetInt32("idUsuario") == null)
+                    {
+                        <a asp-controller="Home" asp-action="Index">Voltar para página inicial</a>
+                    }
+                    </li>
+                    </ul>
+                </nav>
+            </div>
+                <div class="clear"></div>
+            </div>
+        </header>
+
+
+        <main>
+            @RenderBody()
+        </main>
+
+
+<footer class="footer1">
+    
+    <div class="container_footer1">
+    
+        <div class="d33">                
+                <h3>Whatsapp</h3>
+                <address><p><a href="https://wa.me/5527999999999?text=Bem-vindo%20à%20Kawase%20Soluções%20Digitais!%20Meu%20nome%20é%20Kelly.%20Em%20que%20posso%20ajudar?" target="_blank">(28)9999-9999</a></p></address> 
+        </div><!--d33-->    
+    
+        <div class="d33">                
+                <h3>Telefone</h3>
+                <address><p><a href="tel:02899999999" target="_blank">(28)9999-9999</a></p></address> 
+        </div><!--d33--> 
+    
+            <div class="d33">
+
+                <div class="redes_sociais">
+                <h3>Redes Sociais</h3>
+                    <div class="redes">                           
+    				<a href="https://www.facebook.com/">Facebook</a>
+					<a href="https://twitter.com">Twitter</a>
+					<a href="https://www.instagram.com/">Instagram</a>
+					<a href="https://www.linkedin.com/">Linkedin</a>
+					<a href="https://www.youtube.com/">Youtube</a>
+                    </div><!--redes-->
+                </div><!--div redes_sociais-->
+            </div><!--d33-->
+
+    </div><!--container-->
+    <div class="clear"></div><!--clear-->
+
+    </footer><!--footer1-->
+    
+    <!--------------------------------footer 2------------------------------------>
+
+    <footer class="footer2">
+        <p><small>&copy Copyright 2021 - Kelly Kawase - Todos os direitos reservados.</small></p>
+    </footer><!--footer2-->
+
+    
+        </body>
+    </html>
+

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ymT5F7FXjhN50TOXlSW6XmzstuaO1aBWxQCw1xFy3aIuHxqXrAfMuNoOuZSak41nMfWwVE3K+iEEl2RguMmfug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\kawase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kelly\\.nuget\\packages\\mysqlconnector\\1.2.1\\mysqlconnector.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
