@@ -9,7 +9,7 @@ namespace Kawase.Models
         {
             MySqlConnection conexao = new MySqlConnection(_strConexao);
             conexao.Open();
-            string sql= "INSERT INTO mensagem (Nome, Email, Telefone, Selecao, Descricao) VALUES (@Nome, @Email, @Telefone, @Selecao, @Descricao)";
+            string sql= "INSERT INTO mensagem (nome, email, telefone, selecao, descricao) VALUES (@Nome, @Email, @Telefone, @Selecao, @Descricao)";
             MySqlCommand comando = new MySqlCommand(sql, conexao);
             comando.Parameters.AddWithValue("@Nome", novoCliente.Nome);
             comando.Parameters.AddWithValue("@Email", novoCliente.Email);
@@ -24,7 +24,7 @@ namespace Kawase.Models
         {
             MySqlConnection conexao = new MySqlConnection(_strConexao);
             conexao.Open();
-            string sql= "DELETE FROM mensagem WHERE Id=@Id";
+            string sql= "DELETE FROM mensagem WHERE id=@Id";
             MySqlCommand comando = new MySqlCommand(sql, conexao);
             comando.Parameters.AddWithValue("@Id", Id);
             comando.ExecuteNonQuery();

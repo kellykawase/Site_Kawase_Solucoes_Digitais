@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\kawase.csproj",
+  "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\kawase.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,82 +15603,82 @@
   "RootNamespace": "kawase",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Usuario\\Login.cshtml",
-      "TargetPath": "Views\\Usuario\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Usuario\\Listar.cshtml",
-      "TargetPath": "Views\\Usuario\\Listar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Home\\Servicos.cshtml",
-      "TargetPath": "Views\\Home\\Servicos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Cliente\\Contato.cshtml",
-      "TargetPath": "Views\\Cliente\\Contato.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Usuario\\Editar.cshtml",
-      "TargetPath": "Views\\Usuario\\Editar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Shared\\_Layout2.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout2.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Home\\Portfolio.cshtml",
-      "TargetPath": "Views\\Home\\Portfolio.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Home\\Produtos.cshtml",
-      "TargetPath": "Views\\Home\\Produtos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Cliente\\Listar.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Home\\Servicos.cshtml",
+      "TargetPath": "Views\\Home\\Servicos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Usuario\\Login.cshtml",
+      "TargetPath": "Views\\Usuario\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Usuario\\Listar.cshtml",
+      "TargetPath": "Views\\Usuario\\Listar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Home\\Produtos.cshtml",
+      "TargetPath": "Views\\Home\\Produtos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Cliente\\Contato.cshtml",
+      "TargetPath": "Views\\Cliente\\Contato.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Cliente\\Listar.cshtml",
       "TargetPath": "Views\\Cliente\\Listar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Shared\\_Layout2.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Home\\Sobre.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Home\\Portfolio.cshtml",
+      "TargetPath": "Views\\Home\\Portfolio.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Usuario\\Editar.cshtml",
+      "TargetPath": "Views\\Usuario\\Editar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Home\\Sobre.cshtml",
       "TargetPath": "Views\\Home\\Sobre.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\Views\\Home\\Galeria.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\Views\\Home\\Galeria.cshtml",
       "TargetPath": "Views\\Home\\Galeria.cshtml",
       "FileKind": "mvc"
     }

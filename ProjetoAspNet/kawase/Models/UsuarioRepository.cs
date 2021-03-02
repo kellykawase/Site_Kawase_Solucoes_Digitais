@@ -22,7 +22,7 @@ namespace Kawase.Models
         {
             MySqlConnection conexao = new MySqlConnection(_strConexao);
             conexao.Open();
-            string sql= "UPDATE Usuario SET Nome=@Nome, Login=@Login, Senha=@Senha WHERE Id=@Id";
+            string sql= "UPDATE usuario SET nome=@Nome, login=@Login, senha=@Senha WHERE id=@Id";
             MySqlCommand comando = new MySqlCommand(sql, conexao);
             comando.Parameters.AddWithValue("@Nome", novoUsuario.Nome);
             comando.Parameters.AddWithValue("@Login", novoUsuario.Login);
@@ -36,7 +36,7 @@ namespace Kawase.Models
         {
             MySqlConnection conexao = new MySqlConnection(_strConexao);
             conexao.Open();
-            string sql= "SELECT * FROM Usuario WHERE Id=@Id";
+            string sql= "SELECT * FROM usuario WHERE id=@Id";
             MySqlCommand comando = new MySqlCommand(sql, conexao);
             comando.Parameters.AddWithValue("@Id", Id);
             MySqlDataReader reader = comando.ExecuteReader();
@@ -63,7 +63,7 @@ namespace Kawase.Models
         {
             MySqlConnection conexao = new MySqlConnection(_strConexao);
             conexao.Open();
-            string sql = "SELECT * FROM Usuario ORDER BY nome";
+            string sql = "SELECT * FROM usuario ORDER BY nome";
             MySqlCommand comandoQuery = new MySqlCommand(sql, conexao);
             MySqlDataReader reader = comandoQuery.ExecuteReader();
             List<Usuario> lista = new List<Usuario>();

@@ -56,11 +56,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\kawase.csproj",
+      "projectUniqueName": "C:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\kawase.csproj",
       "projectName": "kawase",
-      "projectPath": "C:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\kawase.csproj",
+      "projectPath": "C:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\kawase.csproj",
       "packagesPath": "C:\\Users\\kelly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kelly\\Desktop\\SiteKawase\\KawaseV6\\kawase\\obj\\",
+      "outputPath": "C:\\Users\\kelly\\Desktop\\Site_Kawase_Solucoes_Digitais-main\\Site_Kawase_Solucoes_Digitais-main\\ProjetoAspNet\\kawase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kelly\\AppData\\Roaming\\NuGet\\NuGet.Config"
