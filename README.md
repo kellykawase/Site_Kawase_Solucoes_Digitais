@@ -1,4 +1,4 @@
-# Site Kawase Soluções Digitais
+# Atividade Site Kawase Soluções Digitais
 ## 💻 Projeto
 Site feito no padrão MVC com acesso ao banco de dados no AspNet Core.
 ## :rocket: Tecnologias
